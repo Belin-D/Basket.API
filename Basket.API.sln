@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basket.API", "Basket.API\Basket.API.csproj", "{2CBC14B4-C9E1-405D-812C-14724137F324}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basket.BLL", "Basket.BLL\Basket.BLL.csproj", "{F04758E3-4735-4BC7-A743-B614A8131512}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basket.DAL", "Basket.DAL\Basket.DAL.csproj", "{51DEF43D-8560-48D5-AA92-9BD7EBBAD6D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basket.DOMAINE", "Basket.DOMAINE\Basket.DOMAINE.csproj", "{4A63E3FB-5276-4CB4-BDAD-6E88A301AA56}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2CBC14B4-C9E1-405D-812C-14724137F324}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CBC14B4-C9E1-405D-812C-14724137F324}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CBC14B4-C9E1-405D-812C-14724137F324}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CBC14B4-C9E1-405D-812C-14724137F324}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F04758E3-4735-4BC7-A743-B614A8131512}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F04758E3-4735-4BC7-A743-B614A8131512}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F04758E3-4735-4BC7-A743-B614A8131512}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F04758E3-4735-4BC7-A743-B614A8131512}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51DEF43D-8560-48D5-AA92-9BD7EBBAD6D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51DEF43D-8560-48D5-AA92-9BD7EBBAD6D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51DEF43D-8560-48D5-AA92-9BD7EBBAD6D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51DEF43D-8560-48D5-AA92-9BD7EBBAD6D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A63E3FB-5276-4CB4-BDAD-6E88A301AA56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A63E3FB-5276-4CB4-BDAD-6E88A301AA56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A63E3FB-5276-4CB4-BDAD-6E88A301AA56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A63E3FB-5276-4CB4-BDAD-6E88A301AA56}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
