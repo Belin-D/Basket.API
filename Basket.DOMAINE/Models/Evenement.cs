@@ -14,7 +14,7 @@ namespace Basket.DOMAINE.Models
         public int Prix { get; set; }
         public int NbrPlace { get; set; }
         public DateTime DateEvenement { get; set; }
-        public DateTime HeureEvenement { get; set; }
+        public TimeSpan HeureEvenement { get; set; }
 
         // Relations
         public int SaisonId { get; set; }

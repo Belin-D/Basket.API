@@ -20,4 +20,8 @@
     <ProjectReference Include="..\Basket.DOMAINE\Basket.DOMAINE.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+  </ItemGroup>
+
 </Project>

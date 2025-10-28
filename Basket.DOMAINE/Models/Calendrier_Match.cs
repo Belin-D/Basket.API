@@ -11,7 +11,7 @@ namespace Basket.DOMAINE.Models
     {
         public int Id { get; set; }
         public DateTime DateMatch { get; set; }
-        public DateTime HeureMatch { get; set; }
+        public TimeSpan HeureMatch { get; set; }
 
         // Relations vers les équipes
         public int EquipeLocalId { get; set; }
